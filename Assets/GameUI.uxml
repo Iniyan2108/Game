@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd">
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/UIHealthFrame.png?fileID=21300000&amp;guid=b47cdbd2062c5e64ba5a0bf3f6b045b1&amp;type=3#UIHealthFrame&quot;); width: 75px; height: 50px; -unity-background-scale-mode: scale-to-fit; justify-content: flex-start;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ducko/UI/UIHealthBarDucko.png?fileID=21300000&amp;guid=335e35d6c24ef5141b778902f9d19a3b&amp;type=3#UIHealthBarDucko&quot;); height: 12px; width: 41px; position: absolute; top: 18px; left: 31px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UnityTechnologies/2DBeginnerAdventureGame/Art/Ducko/UI/CharacterPortraitDucko.png?fileID=21300000&amp;guid=f0485db37ba2b03449d2d7917160fcb1&amp;type=3#CharacterPortraitDucko&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; height: 42px; width: 23px; top: 4px; left: 4px;" />
+    </ui:VisualElement>
+</ui:UXML>
